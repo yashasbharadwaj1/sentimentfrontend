@@ -31,9 +31,9 @@ jobs:
 
   deploy:
     name: Deploy
-    needs: build
+    needs: needs.Build.result == 'success'
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
+
 
     steps:
       - name: Download artifact
