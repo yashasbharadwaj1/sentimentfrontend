@@ -5,7 +5,7 @@ import "./index.css";
 function App() {
     return (
         <div >
-            <h1>hello this is yashas final year project frontend</h1>
+            <h1>yashas is a bad boy</h1>
 
         </div>
     );
