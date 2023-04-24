@@ -5,7 +5,7 @@ import "./index.css";
 function App() {
     return (
         <div >
-            <h1>hello my name is yashas he is a ok ok good boy</h1>
+            <h1>hello my name is shekinah</h1>
 
         </div>
     );
