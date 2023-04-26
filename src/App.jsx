@@ -1,13 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
+import MovieFilterForm from "./MovieFilterForm.jsx";
 
 function App() {
     return (
-        <div >
-            <h1>hello my name is yashas he is a ok ok good boy</h1>
-
-        </div>
+        <>
+        <h1>my final year project in progress</h1>
+            <MovieFilterForm />
+        </>
     );
 }
 
