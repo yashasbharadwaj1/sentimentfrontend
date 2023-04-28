@@ -1,15 +1,17 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
-import MovieFilterForm from "./MovieFilterForm.jsx";
+import React from 'react';
+import './App.css';
+import Nav from "./Nav.jsx";
+
+
+
 
 function App() {
     return (
-        <>
-        <h1>my final year project in progress</h1>
-            <MovieFilterForm />
-        </>
+           <>
+               <h1>Sentiment Analyzer on Movie Review Data</h1>
+               <Nav/>
+           </>
     );
 }
 
-export default App
+export default App;

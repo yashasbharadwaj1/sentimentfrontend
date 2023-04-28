@@ -53,6 +53,7 @@ const MovieFilterForm = () => {
 
     return (
         <div>
+            <h3>Sentiment filter my movie</h3>
             <form onSubmit={handleSubmit}>
                 <label htmlFor="movie">Select a movie:</label>
                 <select name="movie" id="movie">
