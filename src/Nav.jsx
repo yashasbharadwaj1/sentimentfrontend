@@ -1,8 +1,7 @@
 import { Link } from "react-router-dom";
-
 const Nav = () => {
     return (
-        <div>
+        <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
             <div style={{ marginBottom: "10px" }}>
                 <Link to="/sentimentfrontend/">Home</Link>
             </div>
@@ -38,4 +37,5 @@ const Nav = () => {
         </div>
     );
 };
+
 export default Nav;

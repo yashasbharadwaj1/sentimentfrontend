@@ -8,7 +8,7 @@ import Nav from "./Nav.jsx";
 function App() {
     return (
            <>
-               <h1>Sentiment Analyzer on Movie Review Data</h1>
+               <h1 style={{ textAlign: "center" }}>Sentiment Analyzer on Movie Review Data</h1>
                <Nav/>
            </>
     );
